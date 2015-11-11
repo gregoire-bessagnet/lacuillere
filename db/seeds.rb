@@ -10,32 +10,32 @@ Restaurant.destroy_all
 restaurants_attributes = [
  {
    name:         "Dindon en laisse",
-   adress:      "18 Rue Beautreillis, 75004 Paris",
-   phonenumber: "01 48 04 06 24",
+   address:      "18 Rue Beautreillis, 75004 Paris",
+   phone_number: "01 48 04 06 24",
    category:     "french"
  },
  {
    name:         "Le resto chinois tenu par un libanais",
-   adress:      "91 Rue Saint-antoine, 75004 Paris",
-   phonenumber: "01 39 48 29 39",
+   address:      "91 Rue Saint-antoine, 75004 Paris",
+   phone_number: "01 39 48 29 39",
    category:     "chinese"
  },
  {
    name:         "Le Ruisseau",
-   adress:      "65 Rue du Ruisseau, 75018 Paris",
-   phonenumber: "01 42 23 31 23",
+   address:      "65 Rue du Ruisseau, 75018 Paris",
+   phone_number: "01 42 23 31 23",
    category:     "italian"
  },
  {
    name:         "La frite",
-   adress:      "65 Rue du Ruisseau, 75018 Paris",
-   phonenumber: "01 42 23 31 23",
+   address:      "65 Rue du Ruisseau, 75018 Paris",
+   phone_number: "01 42 23 31 23",
    category:     "belgian"
  },
  {
    name:         "Le sushi d'or",
-   adress:      "65 Rue du Ruisseau, 75018 Paris",
-   phonenumber: "01 42 23 31 23",
+   address:      "65 Rue du Ruisseau, 75018 Paris",
+   phone_number: "01 42 23 31 23",
    category:     "japanese"
  }
 ]

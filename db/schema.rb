@@ -10,27 +10,3 @@
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
 # It's strongly recommended that you check this file into your version control system.
-
-ActiveRecord::Schema.define(version: 20151111125658) do
-
-  create_table "restaurants", force: :cascade do |t|
-    t.string   "name"
-    t.string   "adress"
-    t.string   "phonenumber"
-    t.string   "category"
-    t.string   "reviews"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
-
-  create_table "reviews", force: :cascade do |t|
-    t.string   "content"
-    t.string   "rating"
-    t.integer  "restaurant_id"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
-  end
-
-  add_index "reviews", ["restaurant_id"], name: "index_reviews_on_restaurant_id"
-
-end
